@@ -8,7 +8,8 @@ http.createServer(function (request, response) {
     const html = fs.readFileSync('test.html', 'utf8')
     response.writeHead(200, {
       'Content-Type': 'text/html',
-      'Content-Security-Policy': 'default-src http: https:'
+      // 'Content-Security-Policy': 'default-src http: https:'
+      'Content-Security-Policy': 'script-src \'self\''
     })
     response.end(html)
   } else {
