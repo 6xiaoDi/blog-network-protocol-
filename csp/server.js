@@ -11,7 +11,9 @@ http.createServer(function (request, response) {
       // 'Content-Security-Policy': 'default-src http: https:'
       // 'Content-Security-Policy': 'script-src \'self\''
       // 'Content-Security-Policy': 'default-src \'self\' https://cdn.bootcss.com/'
-        'Content-Security-Policy': 'default-src \'self\'; form-action \'self\''
+      //   'Content-Security-Policy': 'default-src \'self\'; form-action \'self\''
+      // 'Content-Security-Policy': 'script-src \'self\'; form-action \'self\'; report-uri /report'
+      'Content-Security-Policy-Report-Only': 'script-src \'self\'; form-action \'self\'; report-uri /report'
     })
     response.end(html)
   } else {
