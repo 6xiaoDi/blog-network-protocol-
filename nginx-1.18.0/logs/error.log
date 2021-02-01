@@ -4,3 +4,5 @@
 2021/02/01 11:26:43 [emerg] 6444#2032: CreateFile() "H:\ld\task\code\协议\http01\nginx-1.18.0/conf/nginx.conf" failed (3: The system cannot find the path specified)
 2021/02/01 11:26:45 [emerg] 11948#9296: CreateFile() "H:\ld\task\code\协议\http01\nginx-1.18.0/conf/nginx.conf" failed (3: The system cannot find the path specified)
 2021/02/01 11:26:47 [emerg] 3612#12668: CreateFile() "H:\ld\task\code\协议\http01\nginx-1.18.0/conf/nginx.conf" failed (3: The system cannot find the path specified)
+2021/02/01 11:51:39 [emerg] 6712#15188: unknown directive "proxy_set" in H:\ld\task\code\protool\http01\nginx-1.18.0/conf/servers/test.conf:7
+2021/02/01 11:52:15 [notice] 8496#11728: signal process started
