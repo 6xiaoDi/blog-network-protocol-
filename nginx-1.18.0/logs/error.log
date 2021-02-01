@@ -1,0 +1,6 @@
+2021/02/01 11:22:58 [emerg] 14708#10288: CreateFile() "H:\ld\task\code\协议\http01\nginx-1.18.0/conf/nginx.conf" failed (3: The system cannot find the path specified)
+2021/02/01 11:23:21 [emerg] 14496#13252: CreateFile() "H:\ld\task\code\协议\http01\nginx-1.18.0/conf/nginx.conf" failed (3: The system cannot find the path specified)
+2021/02/01 11:26:21 [emerg] 9452#8588: CreateFile() "H:\ld\task\code\协议\http01\nginx-1.18.0/conf/nginx.conf" failed (3: The system cannot find the path specified)
+2021/02/01 11:26:43 [emerg] 6444#2032: CreateFile() "H:\ld\task\code\协议\http01\nginx-1.18.0/conf/nginx.conf" failed (3: The system cannot find the path specified)
+2021/02/01 11:26:45 [emerg] 11948#9296: CreateFile() "H:\ld\task\code\协议\http01\nginx-1.18.0/conf/nginx.conf" failed (3: The system cannot find the path specified)
+2021/02/01 11:26:47 [emerg] 3612#12668: CreateFile() "H:\ld\task\code\协议\http01\nginx-1.18.0/conf/nginx.conf" failed (3: The system cannot find the path specified)
