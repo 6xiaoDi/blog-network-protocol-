@@ -9,7 +9,9 @@ http.createServer(function (request, response) {
     response.writeHead(200, {
       'Content-Type': 'text/html',
       // 'Content-Security-Policy': 'default-src http: https:'
-      'Content-Security-Policy': 'script-src \'self\''
+      // 'Content-Security-Policy': 'script-src \'self\''
+      // 'Content-Security-Policy': 'default-src \'self\' https://cdn.bootcss.com/'
+        'Content-Security-Policy': 'default-src \'self\'; form-action \'self\''
     })
     response.end(html)
   } else {
