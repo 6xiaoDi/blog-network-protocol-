@@ -24,7 +24,12 @@ http.createServer(function (request, response) {
   // 声明一个接口
   if (request.url === '/data') {
     response.writeHead(200, {
-      'Cache-Control': 'max-age=20000',
+      // 'Cache-Control': 'max-age=20000',
+      // 'Cache-Control': 'max-age=2, s-maxage=20',
+      // 'Cache-Control': 'max-age=5, s-maxage=20, private',
+      // 'Cache-Control': 'max-age=5, s-maxage=20, no-store',
+      'Cache-Control': 's-maxage=200',
+      'Vary': 'X-Test-Cache'
     })
     wait(2).then(() => response.end('success'))
   }
