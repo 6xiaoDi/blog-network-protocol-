@@ -6,3 +6,13 @@
 2021/02/01 11:26:47 [emerg] 3612#12668: CreateFile() "H:\ld\task\code\–≠“È\http01\nginx-1.18.0/conf/nginx.conf" failed (3: The system cannot find the path specified)
 2021/02/01 11:51:39 [emerg] 6712#15188: unknown directive "proxy_set" in H:\ld\task\code\protool\http01\nginx-1.18.0/conf/servers/test.conf:7
 2021/02/01 11:52:15 [notice] 8496#11728: signal process started
+2021/02/01 12:12:22 [notice] 11728#4600: signal process started
+2021/02/01 12:13:29 [notice] 8436#8096: signal process started
+2021/02/01 12:18:23 [notice] 3296#5500: signal process started
+2021/02/01 12:22:41 [notice] 10332#4004: signal process started
+2021/02/01 12:27:25 [notice] 17080#15932: signal process started
+2021/02/01 12:27:25 [error] 17080#15932: CreateFile() "H:\ld\task\code\protool\http01\nginx-1.18.0/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2021/02/02 10:24:32 [emerg] 8276#1112: directive "proxy_cache_path" is not terminated by ";" in H:\ld\task\code\protool\http01\nginx-1.18.0/conf/servers/test.conf:3
+2021/02/02 10:49:59 [notice] 11892#15720: signal process started
+2021/02/02 11:03:44 [error] 9496#9080: *6 upstream timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while reading response header from upstream, client: 127.0.0.1, server: test.com, request: "GET /favicon.ico HTTP/1.1", upstream: "http://127.0.0.1:8888/favicon.ico", host: "test.com", referrer: "http://test.com/"
+2021/02/02 11:03:54 [error] 9496#9080: *10 upstream timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while reading response header from upstream, client: 127.0.0.1, server: test.com, request: "GET /favicon.ico HTTP/1.1", upstream: "http://127.0.0.1:8888/favicon.ico", host: "test.com", referrer: "http://test.com/"
